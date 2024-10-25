@@ -1,0 +1,11 @@
+{
+    "project.name": "go-tools",
+    "phabricator.uri" : "https://qube.btq.li/",
+    "arc.land.onto": ["main"],
+    "arc.land.onto.default": "main",
+    "repository.callsign": "R1",
+    "load": [
+        ".app/arcanist/src/"
+    ],
+    "unit.engine": "GoTestEngine"
+}
