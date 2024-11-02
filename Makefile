@@ -9,4 +9,8 @@ test:
 
 .PHONY: race-test 
 race-test: 
-	go test ./... -race -v -cover -covermode=atomic 
+	go test ./... -race -v -cover -covermode=atomic
+
+.PHONY: lint
+lint:
+	golangci-lint run ./...
